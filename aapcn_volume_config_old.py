@@ -6,7 +6,6 @@ PARABOLE_OFFER = 1171
 PARABOLE_DA = 1071
 
 whatsapp_monthly_flag_offer_id=[113]
-
 offer_id_check_iser600 = [1383]
 offer_id_check_iser2000 = [1384]
 offer_id_check_iser3000 = [1385]
