@@ -149,6 +149,48 @@ newMsgs['I-Ser@1000_U&R']['txt-1'] = "You are subscribed to I-Ser@1000 0+ I-Ser@
 newMsgs['I-Ser@1000_U&R']['txt-2'] = "Tafiditra ny I-Ser@1000 + I-Ser@1000 KADOA:100Mo azo ampisaina h@ 12ora alina sy BONUS 100Mo ampiasaina @10ora alina-5ora maraina. Megaoctet tavela:*999*114#"
 newMsgs['I-Ser@1000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@1000 + I-Ser@1000 CADEAU:100Mo utilisable 1 jour et un BONUS de 100Mo,valable de 22h a 04h59.Solde restant:*999*114#"
 
+#=============Start of data bonus bundles=January16=SR6136197================
+newMsgs['I-Ser@600_U&R'] = {}
+newMsgs['I-Ser@600_U&R']['txt-1'] = "You are subscribed to I-Ser@600 + I-Ser@600 GIFT: 50Mb valid 1 day and 50Mb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@600_U&R']['txt-2'] = "Tafiditra ny I-Ser@600 + I-Ser@600 KADOA: 50Mo azo ampisaina hatr@ 12ora alina sy BONUS 50Mo ampiasaina @ 10ora alina-5ora maraina. Megaoctet tavela: *999*114# "
+newMsgs['I-Ser@600_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@600 + I-Ser@600 CADEAU: 50Mo utilisable 1 jour et un BONUS de 50Mo, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@2000_U&R'] = {}
+newMsgs['I-Ser@2000_U&R']['txt-1'] = "You are subscribed to I-Ser@2000 + I-Ser@2000 GIFT: 250Mb valid 1 day and 250Mb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@2000_U&R']['txt-2'] = "Tafiditra ny I-Ser@2000 + I-Ser@2000 KADOA: 50Mo azo ampisaina hatr@ 12ora alina sy BONUS 50Mo ampiasaina @ 10ora alina-5ora maraina. Megaoctet tavela: *999*114# "
+newMsgs['I-Ser@2000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@2000 + I-Ser@2000 CADEAU: 50Mo utilisable 1 jour et un BONUS de 50Mo, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@3000_U&R'] = {}
+newMsgs['I-Ser@3000_U&R']['txt-1'] = "You are subscribed to I-Ser@3000 + I-Ser@3000 GIFT: 250Mb valid 7days and 250Mb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@3000_U&R']['txt-2'] = "Tafiditra ny I-Ser@3000 + I-Ser@3000 KADOA: 250Mo sy BONUS 250Mo ampiasaina @ 10ora alina-5ora maraina ary maharitra 7andro. Megaoctet tavela: *999*114# "
+newMsgs['I-Ser@3000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@3000 + I-Ser@3000 CADEAU: 250Mo utilisable 7 jours et un BONUS de 250Mo, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@6000_U&R'] = {}
+newMsgs['I-Ser@6000_U&R']['txt-1'] = "You are subscribed to I-Ser@6000 + I-Ser@6000 GIFT: 550Mb valid 7days and 550Mb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@6000_U&R']['txt-2'] = "Tafiditra ny I-Ser@6000 + I-Ser@6000 KADOA: 550Mo sy BONUS 550Mo ampiasaina @ 10ora alina-5ora maraina ary maharitra 7andro. Megaoctet tavela: *999*114#"
+newMsgs['I-Ser@6000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@6000 + I-Ser@6000 CADEAU: 550Mo utilisable 7 jours et un BONUS de 550Mo, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@10000_U&R'] = {}
+newMsgs['I-Ser@10000_U&R']['txt-1'] = "You are subscribed to I-Ser@10000 + I-Ser@10000 GIFT: 1Gb valid 7days and 1Gb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@10000_U&R']['txt-2'] = "Tafiditra ny I-Ser@10000 + I-Ser@10000 KADOA: 1Go sy BONUS 1Go ampiasaina @ 10ora alina-5ora maraina ary maharitra 7andro. Megaoctet tavela: *999*114# "
+newMsgs['I-Ser@10000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@10000 + I-Ser@10000 CADEAU: 1Go utilisable 7 jours et un BONUS de 1Go, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@30000_U&R'] = {}
+newMsgs['I-Ser@30000_U&R']['txt-1'] = "You are subscribed to I-Ser@30000 + I-Ser@30000 GIFT: 4Gb valid 30days and 4Gb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@30000_U&R']['txt-2'] = "Tafiditra ny I-Ser@30000 + I-Ser@30000 KADOA: 4Go sy BONUS 4Go ampiasaina @ 10ora alina-5ora maraina ary maharitra 30andro. Megaoctet tavela: *999*114# "
+newMsgs['I-Ser@30000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@30000 + I-Ser@30000 CADEAU: 4Go utilisable 30jours et un BONUS de 4Go, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@80000_U&R'] = {}
+newMsgs['I-Ser@80000_U&R']['txt-1'] = "You are subscribed to I-Ser@80000 + I-Ser@80000 GIFT: 12Gb valid 30days and 12Gb of BONUS to be used from 10pm to 05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@80000_U&R']['txt-2'] = "Tafiditra ny I-Ser@80000 + I-Ser@80000 KADOA: 12Go sy BONUS 12Go ampiasaina @ 10ora alina-5ora maraina ary maharitra 30andro. Megaoctet tavela: *999*114#  "
+newMsgs['I-Ser@80000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@80000 + I-Ser@80000 CADEAU: 12Go utilisable 30 jours et un BONUS de 12Go, valable de 22h a 05h. Solde restant: *999*114#"
+
+newMsgs['I-Ser@120000_U&R'] = {}
+newMsgs['I-Ser@120000_U&R']['txt-1'] = "You are subscribed to I-Ser@120000 + I-Ser@120000: 20Gb valid 30days and 20Gb of BONUS to be used from 10pm-05am. Press *999*114# to check remaining balance"
+newMsgs['I-Ser@120000_U&R']['txt-2'] = "Tafiditra ny I-Ser@120000 + I-Ser@120000 KADOA: 20Go sy BONUS 20Go ampiasaina @ 10ora alina-5ora maraina ary maharitra 30andro. Megaoctet tavela: *999*114#   "
+newMsgs['I-Ser@120000_U&R']['txt-3'] = "Vous etes souscrit a I-Ser@120000 + I-Ser@120000 CADEAU: 20Go utilisable 30 jours et un BONUS de 20Go, valable de 22h a 05h. Solde restant: *999*114#"
+#=============End of data bonus bundles==================
+
 newMsgs['6'] = {}
 newMsgs['6']['txt-1'] = "You are succesfully subscribed to I-Ser@3000:125Mb with 125Mb of BONUS to be used from 10pm to 04:59am.Validity 7days.Check remaining balance:*999*114#"
 newMsgs['6']['txt-2'] = "Tafiditra ny I-Ser@3000:ahazoana 125Mo internet sy BONUS 125Mo ampiasaina @ 10ora alina-5ora maraina ary manankery 7 andro.Megaoctet tavela: *999*114#"
