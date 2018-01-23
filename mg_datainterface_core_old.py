@@ -503,6 +503,32 @@ def process_self(message, logger):
 
                     elif package_id == '413':
                         message = newMsgs['Ser@1000'][lang]
+                    #start of data bonus SR6136197
+                    elif package_id == '191' and flag_message_override == True:
+                        message = newMsgs['I-Ser@600_U&R'][lang]
+
+                    elif package_id == '240' and flag_message_override == True:
+                        message = newMsgs['I-Ser@2000_U&R'][lang]
+
+                    elif package_id == '6' and flag_message_override == True:
+                        message = newMsgs['I-Ser@3000_U&R'][lang]
+
+                    elif package_id == '8' and flag_message_override == True:
+                        message = newMsgs['I-Ser@6000_U&R'][lang]
+
+                    elif package_id == '9' and flag_message_override == True:
+                        message = newMsgs['I-Ser@10000_U&R'][lang]
+
+                    elif package_id == '11' and flag_message_override == True:
+                        message = newMsgs['I-Ser@30000_U&R'][lang]
+
+                    elif package_id == '14' and flag_message_override == True:
+                        message = newMsgs['I-Ser@80000_U&R'][lang]
+
+                    elif package_id == '15' and flag_message_override == True:
+                        message = newMsgs['I-Ser@120000_U&R'][lang]
+                    #End of data bonus
+    
 
                     elif package_id == '4' and flag_message_override == True:
                         message = newMsgs['I-Ser@1000_U&R'][lang]
