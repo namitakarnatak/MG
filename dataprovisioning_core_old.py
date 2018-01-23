@@ -13,6 +13,8 @@ from aapcn.src.voice.config import (voice_bundles_to_be_recorded,
         retailer_packages_check,weekend_check_packages,offer_id_check_ser500,offer_id_check_ser1000,promo_offer_id_check_bundle200,offer_id_check_funcool,
         offer_id_check_ser10000,offer_id_check_clubsmsmini,offer_id_check_clubsms)
 from aapcn.src.volume.config import mymeg10_flag_check,mymeg50_flag_check,whatsapp_monthly_flag_offer_id
+from data_provisioning.src.core.config import (product_name_iser600,product_name_iser2000,product_name_iser3000,product_name_iser6000,product_name_iser10000,
+        product_name_iser30000,product_name_iser80000,product_name_iser120000)
 
 
 def debug(txt):
@@ -462,6 +464,38 @@ def processRequest(resources):
         if parameters['package_name'] == 'I-Ser@1000':
             parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,mymeg50_flag_check)
             log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+                if parameters['package_name'] == product_name_iser600:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser600)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser2000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser2000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser3000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser3000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser6000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser6000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser10000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser10000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser30000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser30000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser80000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser80000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
+        if parameters['package_name'] == product_name_iser120000:
+            parameters['flag_message_override'] = is_bonus_offer_bundle_check(resources,offer_id_check_iser120000)
+            log(resources, '%s Bonus Allowed: %s msisdn: %s' % (parameters['package_name'],parameters['flag_message_override'],beneficiary),'debug')
+
 
         voice_time_barred = False
         whitelisted = True
